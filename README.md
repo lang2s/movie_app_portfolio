@@ -1,3 +1,4 @@
 # Movie App 2020
 
-React JS Fundaments Course 2020
++ npm
++ prop-types
