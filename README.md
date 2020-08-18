@@ -1,5 +1,5 @@
 # Movie App 2020
 
-+ react
 + npm
-+ prop-types
++ react
++ prop-types (npm install prop-types)
