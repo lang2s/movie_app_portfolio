@@ -7,5 +7,5 @@
 
 -------------------------------------
 ### 영화 API
-- list_move : yts-proxy.now.sh/list_movies.json
-- movie_details : yts-proxy.now.sh/movie_details.json    ?movie_id=''
+- list_move : _yts-proxy.now.sh/list_movies.json_
+- movie_details : _yts-proxy.now.sh/movie_details.json?movie_id=''_
