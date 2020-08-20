@@ -16,7 +16,7 @@ function App() {
       <Route path="/about" component={About} />
       <Route path="/movie-detail" component={Detail} />
     </HashRouter>
-    
+    // 완성
     
     );
 }
