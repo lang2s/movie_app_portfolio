@@ -1,0 +1,85 @@
+.detail {
+    background-color: white;
+    font-weight: 300;
+    padding: 20px;
+    border-radius: 5px;
+    color: #adaeb9;
+    height: 550px;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+                    0 8px 16px -8px rgba(0, 0, 0, 0.3),
+                        0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.detail__img {
+    position: relative;
+    max-width: 30%;
+    height: 100%;
+    left: 150px;
+    margin: 0;
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+                    0 18px 36px -18px rgba(0, 0, 0, 0.3),
+                        0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.detail__poster {
+    position: relative;
+    top: -256px;
+    max-width: 150px;
+    width: 100%;
+    left: 440px;
+    margin: 0px;
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+                    0 18px 36px -18px rgba(0, 0, 0, 0.3),
+                        0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.detail__data {
+    position: relative;
+    left: 670px;
+    top: -240px;
+    width: 410px;
+    text-align: center;
+    margin: 0;
+}
+
+.detail .detail__title, .detail .detail__year {
+    margin: 0;
+    font-weight: 300;
+}
+
+
+.detail .detail__title {
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #2c2c2c;
+    width: 60%%;
+}
+
+.detail .detail__genres {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0px;
+}
+
+.detail__genres li, .detail .detail__year {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.detail .detail__summary{
+    position: relative;
+    width: 80%;
+    text-align: center;
+    left: 20px;
+}
+
+.btn {
+    position: fixed;
+    left: 90%;
+    top: 30px;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,0.06);
+}
