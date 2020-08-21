@@ -32,7 +32,7 @@ class Detail extends React.Component {
                             <div className="detail__summary">      
                                 <p>{location.state.summary.slice(0, 300)}...</p>
                             </div>
-                            <a href="/" className="btn"><AiOutlineClose size="3em"/></a>
+                            <a href="https://lang2s.github.io/movie_app_portfolio/#/" className="btn"><AiOutlineClose size="3em"/></a>
                         </div>
               </div>
             </div> 
